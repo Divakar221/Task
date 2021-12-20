@@ -1,0 +1,31 @@
+ .size-img{ 
+    width: 70px;
+    height:70px;
+    border:2px solid white;
+    border-radius: 50px;
+    background-color: skyblue;
+} 
+.colu{
+    color: #FD7E13;
+}
+.left{
+    text-align: left;
+}
+
+body{
+    margin: 0em;
+    padding: 0em;
+    overflow-x: hidden;
+    color: white;
+    background-color: #303E47;  
+    }
+    .heading{
+        color: #F15F60;
+    }
+    .margin{
+        margin-top: 5em
+    }
+    .one{
+        height: 40px;
+        width: 40px;
+    }
