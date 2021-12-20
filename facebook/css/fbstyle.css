@@ -1,0 +1,301 @@
+.wrap{
+margin:0;
+padding:0;
+/* background-color: black; */
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+header{
+   
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.head1{
+    background-color: black;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    grid-column-gap:10px ;
+    
+    /* height: 60px; */
+}
+
+.fb{
+    width:45px;
+    height: 45px;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.text{
+    margin-top: 5px;
+    border-radius: 25px;
+    background-color: grey;
+    height: 40px;
+    width: 200px;
+    color: white;
+    /* letter-spacing: 3px; */
+}
+.head2{
+    background-color: black;
+    display: grid;
+    grid-auto-flow: column;
+    /* gap: 4em; */
+}
+.house{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: white;
+}
+.marketplace{
+height: 40px;
+width: 40px;
+margin-top: 5px;
+}
+.group{
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+}
+.last{
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+}
+.head3{
+    background-color: black;
+    display: grid;
+    grid-auto-flow: column;
+}
+.ben{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.bentext{
+    margin-top: 15px;
+}
+.menu{
+    height: 40px;
+    width: 40px;
+    border-radius: 6ƒ0px;
+    margin-top: 5px;
+}
+.mes{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.guvi{
+    margin: 0;
+    /* display: block; */
+    height: 50vh;
+    width: 80vw;
+    border:  2px solid black;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right:10% ;
+    /* margin-bottom: 50%; */
+}
+.middle{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 35% 30% 30%;
+    grid-column-gap:0% ;
+    color: white;
+
+
+    
+}
+.guvihome{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 5px solid black;
+    margin:-30px 0px 0px 300px 
+    
+}
+.guvimid{
+justify-content: center;
+margin: 50px 0px 0px 0px ;
+}
+#mid{
+    font-size: 40px;
+}
+
+spam{
+    color: chocolate;
+}
+
+.signup{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: white;
+}
+button{
+    width: 50%;
+    border-radius: 5px;
+   
+    background-color: hsl(220, 62%, 61%);
+}
+#line{
+    border: 1px solid  rgb(58, 53, 53);
+    margin: 5px 10% 0px 10%;
+}
+.mid2{
+    display: grid;
+    grid-auto-flow: column; 
+    /* border: 5px solid black; */
+    margin: 10px 20px 0px 150px;
+    color: white;
+    
+
+}
+.but1{
+    color: white;
+}
+.tag{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    color:white;
+}
+.invisible{
+    display: grid;
+    grid-auto-flow: column;
+    /* column:70% */
+    grid-template-columns: 15% 15% 15% 15%;
+    justify-content: end;
+    margin-right: 140px;
+    
+    
+}
+.but{
+    height: 25px;
+    width: 70px;
+    margin-bottom: 10px;
+    color: white;
+    /* justify-content: end; */
+   
+}
+main{
+    background-color: rgb(66, 68, 70);
+    background-image: linear-gradient(to bottom,rgb(153, 153, 153),rgb(61, 61, 61));
+}
+footer{
+    display: grid;
+    grid-auto-flow: column;
+    /* margin:0px 140px ; */
+    padding-top: 20px;
+    height: 50vh;
+    background-color: black;
+}
+.left{
+border: 2px solid black;
+height: 190px;
+width: 25em;
+margin-left: 160px;
+color: white;
+background-color: grey;
+border-radius:15px;
+
+}
+.right{
+    border: 2px solid black;
+height: 160px;
+width: 35em;
+margin-right: 200px;
+border-radius: 20px;
+display: grid;
+gap: 10px;
+background-color: black;
+border-radius: 15px;
+}
+.up{
+    background-color: grey;
+    width: 35em;
+    height: 90px;
+    border-radius: 15px;
+}
+.down{
+    background-color: grey;
+    height: 80px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    gap: 5px;
+    border-radius: 15px;
+    padding: 10px 0 0 10px;
+    /* padding: 2em; */
+}
+.bb{
+    margin-top: -50px;
+}
+.leftheader{
+    display: grid;
+    grid-auto-flow: column;
+    margin: 10px 10px 0 10px;
+}
+.create-post{
+    color: white;
+    background-color: rgb(48, 46, 46);
+    border: none;
+    height: 2em;
+    width: 20em;
+    font-weight: bold;
+    margin-left: -60px;
+    letter-spacing: 1px;
+    
+    /* text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: white; */
+}
+.left-header2{
+    display: grid;
+    grid-auto-flow: column;
+    margin: 20px 10px;
+}
+.images{
+    display: grid;
+    grid-auto-flow: column;
+    margin: 10px 10px;
+}
+.tt{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   /* margin-top: -15em; */
+   margin-left: 10px;
+}
+.guvihome1{
+ 
+    /* width: 50px; */
+    height: 50px;
+    /* padding-top:20px; */
+    border-radius: 100px;
+}
+#mid1{
+    /* color: red; */
+    margin-top: -20em;
+    color: white;
+
+}
+.end{
+    display: grid;
+    grid-auto-flow: column;
+
+}
