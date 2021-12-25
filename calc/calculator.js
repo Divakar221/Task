@@ -82,10 +82,10 @@ buttonclear1.setAttribute("onclick", "display('<=')")
 td2.appendChild(buttonclear1)
 
 
-function display(value) {
-    console.log('did')   // checking function working or not
-    document.getElementById("result").value += value;
-   }
+// function display(value) {
+//     console.log('did')   // checking function working or not
+//     document.getElementById("result").value += value;
+//    }
 
 //////2
 let td3 = document.createElement("td")
