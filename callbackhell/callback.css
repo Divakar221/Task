@@ -1,0 +1,31 @@
+body{
+    margin:6em;
+    background-image:url("bday.jpg") ;
+    /* background-repeat: no-repeat; */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+q{
+    font-size: 50px;
+    text-align: left;
+}
+#one{
+    height: 4.5em;
+    width: 3.5em;
+    image: no-repeat;
+}
+#text{
+    /* margin-top: 20px; */
+    color: white;
+    font-family: 'The Nautigal', cursive;
+    font-size: 100px;
+    text-align: left;
+    /* font-size: 10em; */
+}
+/* #text{
+   
+} */
